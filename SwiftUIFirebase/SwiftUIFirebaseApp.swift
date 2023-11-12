@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUIFirebaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(didCompleteLoginProcess: {
+            })
         }
     }
 }
